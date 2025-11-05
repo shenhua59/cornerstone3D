@@ -94,8 +94,6 @@ function correctAffine(affine) {
     orientation.push(label);
   }
 
-  console.log(orientation.join(''));
-
   // --- 动态生成正交 affine ---
   // 1. 计算每个方向对应哪一个世界轴
   // 2. 按该方向排列 spacing（自动翻转）
